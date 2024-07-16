@@ -229,7 +229,9 @@ header{
 }
 /* popular section part end */
 /* Featured section start */
+
 #featured{
+    background-color: #FFFFFF;
     margin: 100px 0;
 }
 .featured-container{
@@ -250,7 +252,12 @@ header{
     padding: 15px 0;
 }
 /* Featured section end */
+/* footer part start */
+footer{
+    background-color: #0a0826;
+}
 
+/* footer part end */
 
 
 
