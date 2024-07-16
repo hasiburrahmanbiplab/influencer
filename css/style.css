@@ -27,7 +27,45 @@ a{
     border: 1px solid blue;
     padding: 0 10px;
 }
+.banner-title{
+    font-size: 52px;
+    font-weight: 800;
+    color: #3A3A3A;
+    line-height: 72px;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3A3A3A;
+    line-height: auto;
+}
+.popular-title{
+    font-size: 28px;
+    font-weight: 600;
+    color:#18191F;
+    line-height: 40px;
+}
+.popular-description{
+    font-size: 14px;
+    font-weight: 800;
+    color:#787885;
+    line-height: 138%;
+    letter-spacing: 1.8%;
+}
 /* common css end */
 /* header part start */
-
+header{
+    background-color: #ffffff;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.navbar-logo a{
+    font-size: 24px;
+    font-weight: 800;
+    color: ;
+}
 /* header part end */
