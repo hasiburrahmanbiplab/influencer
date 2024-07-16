@@ -151,11 +151,57 @@ header{
     align-items: center;
     flex-wrap:wrap ;
     gap: 30px;
-    border-top: 1px solid red;
-    border-bottom: 1px solid blue;
-    padding: 10px 0;
+    border-top: 1px solid rgba(75, 73, 73, 0.596);
+    border-bottom: 1px solid rgba(94, 94, 95, 0.568);
+    padding: 20px 0;
 }
 /* Logos Section part end  */
+/* popular section part start */
+#popular{
+    background-color: #FFFFFF;
+}
+.popular-header{
+    text-align: center;
+}
+.popular-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap:40px ; 
+    margin-top: 60px;
+}
+.popular-content .popular-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.popular-card .popular-text{
+    max-width: 300px;
+}
+.popular-text > span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #3A3A3A;
+    padding: 20px 0;
+}
+.popular-text > ul{
+    display: flex;
+    column-gap: 10px;
+}
+.popular-text ul span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #3A3A3A;
+}
+.popular-text p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+/* popular section part end */
 
 
 
