@@ -54,7 +54,7 @@ a{
     column-gap: 10px;
 }
 .popular-title{
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 600;
     color:#18191F;
     line-height: 40px;
@@ -216,6 +216,7 @@ header{
     margin-top: 35px;
 }
 .popular-button button{
+    background: transparent;
     font-size: 16px;
     font-weight:500 ;
     color: #E02C6D;
@@ -225,9 +226,30 @@ header{
     justify-content: center;
     align-items: center;
     gap: 10px;
-
 }
 /* popular section part end */
+/* Featured section start */
+#featured{
+    margin: 100px 0;
+}
+.featured-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.featured-text .inner-text{
+    max-width: 660px;
+    margin: 0 auto;
+}
+.featured-text .inner-text p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #3A3A3A;
+    padding: 15px 0;
+}
+/* Featured section end */
 
 
 
