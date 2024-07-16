@@ -210,6 +210,23 @@ header{
     font-weight: 600;
     color: #3A3A3A;
 }
+.popular-button{
+    display: flex;
+    justify-content: end;
+    margin-top: 35px;
+}
+.popular-button button{
+    font-size: 16px;
+    font-weight:500 ;
+    color: #E02C6D;
+    text-transform: capitalize;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
 /* popular section part end */
 
 
