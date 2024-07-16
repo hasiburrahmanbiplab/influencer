@@ -24,7 +24,6 @@ a{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid blue;
     padding: 0 10px;
 }
 .banner-title{
@@ -103,6 +102,7 @@ header{
     justify-content: center;
     align-items: center;
     background-color: rgba(126, 126, 125, 0.288);
+    padding: 10px;
 }
 .banner-container .banner-text{
     max-width: 550px;
@@ -255,8 +255,38 @@ header{
 /* footer part start */
 footer{
     background-color: #0a0826;
+    padding: 50px 0;
 }
-
+.footer-content{
+    text-align: center;
+}
+.footer-content h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.footer-content span{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}.footer-content ul{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+.footer-content ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff44;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* footer part end */
 
 
